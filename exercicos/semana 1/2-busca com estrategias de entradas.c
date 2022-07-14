@@ -13,16 +13,8 @@ int main(){
         scanf("%d", &vet[i]);
     }
 
-    // vet[0]= 1;
-    // vet[1]= 2;
-    // vet[2]= 3;
-    // vet[3]= 4;
-    // vet[4]= 5;
-
     printf("digite o valor a procurar\n");
     scanf("%d", &chave);
-
-    // chave = 4;
 
     retorno = BuscarSequencial(vet, chave);
     
